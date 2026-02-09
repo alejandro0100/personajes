@@ -1,43 +1,84 @@
 *{
 
 
-}
 
+}
+body{
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 header{
     width: 1366px;
     height: 200px;
-    background-color: aqua;
+    background-color: rgb(3, 95, 95);
     margin: 0 auto;
+}
+
+header img{
+    height: 100%;
 }
 
 
 nav{
     width: 1366px;
     height: 50px;
-    background-color: rgb(204, 8, 8);
+    background-color: rgb(26, 9, 49);
     margin: 0 auto;
 }
 
 main{
     width: 1366px;
     height: 2000px;
-    background-color: rgb(96, 11, 192);
+    
+    /*background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgb(37, 42, 43);
     margin: 0 auto;
 }
+
+
+
+.foto{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    
+}
+
+.foto img{
+    height: 100%;
+    padding-top: 75px;
+}
+
+.info{
+    width: 800px;
+    height: 400px;
+    margin-left: 450px;
+    background-color: rgba(6, 59, 80, 0.425);
+    padding: 50px;
+
+}
+
+.info h3{
+    padding-top: 5px;
+}
+
 
 footer{
     width: 1366px;
     height: 200px;
-    background-color: rgb(0, 255, 98);
+    background-color: rgb(13, 31, 43);
     margin: 0 auto;
 
+
+}
+footer a{
+    display: block;
+    padding: 10px;
 }
 
-.foto{
-    width: 400px;
-}
-
-.img{
-    width: 400px;
-}
