@@ -26,6 +26,14 @@ nav{
     height: 50px;
     background-color: rgb(26, 9, 49);
     margin: 0 auto;
+      font-family: "Kings";
+
+}
+
+nav a{
+          color: rgb(193, 186, 50);
+          padding-left: 20px;
+          font-size: larger;
 }
 
 main{
@@ -61,11 +69,20 @@ main{
     margin-left: 450px;
     background-color: rgba(6, 59, 80, 0.425);
     padding: 50px;
-
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+        font-size: 18px;
 }
 
 .info h3{
     padding-top: 5px;
+  font-family: "Kings";
+
+}
+
+.info a{
+    color: rgb(50, 155, 158);
+    font-size: 18px;
 }
 
 
@@ -80,5 +97,8 @@ footer{
 footer a{
     display: block;
     padding: 10px;
+    font-family: "Kings";
+    color: rgb(193, 186, 50);
+    font-size: larger;
 }
 
